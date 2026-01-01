@@ -1,0 +1,88 @@
+/* ==========================
+   CONTACT US SECTION
+=========================== */
+.contactus-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  color: #004080;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* ==========================
+   CONTACT US SECTION TITLE (with blue underline)
+========================== */
+.contactus-section .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #004080;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+}
+
+.contactus-section .section-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #0078ff; 
+  border-radius: 2px;
+}
+
+.contactus-section .intro-text {
+  font-size: 16px;
+  color: #333;
+  margin: 0 auto 40px;
+  max-width: 900px;
+  line-height: 1.7;
+}
+
+.contact-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-content h3 {
+  font-size: 20px;
+  color: #004080;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.contact-content p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.contact-list li {
+  background: #fff;
+  border-left: 4px solid #004080;
+  margin-bottom: 12px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    text-align: center;
+  }
+
+  .contact-list li {
+    text-align: left;
+  }
+}
